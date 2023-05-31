@@ -101,7 +101,7 @@ public class Search_form extends JFrame implements ActionListener {
             FileReader fr= new FileReader("carinventory.txt");
             BufferedReader readcar = new BufferedReader(fr);
             
-           int max = 0;
+           Double max = 0;
            String values = readcar.readLine();     
            while ((values = readcar.readLine()) != null) {
                 StringTokenizer stn = new StringTokenizer(values); // to a build-in function to traverse each line in the file and check word by word
