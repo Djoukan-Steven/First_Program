@@ -108,8 +108,8 @@ public class Search_form extends JFrame implements ActionListener {
                 String brand = stn.nextToken();
                 String gearbox = stn.nextToken();
                 String model = stn.nextToken();
-                int year = Integer.parseInt(stn.nextToken());
-                int maxspeed = Integer.parseInt(stn.nextToken());
+                Double year = Double.parseDouble(stn.nextToken());
+                Double maxspeed = Double.parseDouble(stn.nextToken());
                 String color = stn.nextToken();
                 
                 if (max < maxspeed){
